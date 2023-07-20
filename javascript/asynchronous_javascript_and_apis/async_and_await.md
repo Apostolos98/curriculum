@@ -69,7 +69,7 @@ For a more interactive explanation and example, try the following Scrim (let us 
 
 ### The async keyword
 
-The `async` keyword is what lets the JavaScript engine know that you are declaring an asynchronous function. This is required to use `await` inside any function. When a function is declared with `async`, it automatically returns a promise; returning in an `async` function is the same as resolving a promise. Likewise, throwing an error will reject the promise.
+The `async` keyword is what lets the JavaScript engine know that you are declaring an asynchronous function. This is required to use `await` inside any particular function. When a function is declared with `async`, it automatically returns a promise; returning in an `async` function is the same as resolving a promise. Likewise, throwing an error will reject the promise.
 
 An important thing to understand is `async` functions are just syntactical sugar for `promises`.
 
